@@ -9,4 +9,5 @@
 - Hot Reloading of Components and Reducers
 - Stylus
 - ESLint
-- A Fun Birds and Planes Default Example Setup
+
+## Same as master branch but with no examples. Requires some initial setup - refer to master branch.
