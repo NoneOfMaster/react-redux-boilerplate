@@ -7,8 +7,7 @@ import Main from './components/Main';
 
 function mapStateToProps(state) {
   return {
-    birds: state.birds,
-    planes: state.planes
+    // state goes here
   }
 }
 

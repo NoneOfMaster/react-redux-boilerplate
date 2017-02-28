@@ -9,9 +9,8 @@ import store, { history } from './store';
 
 // Import Components
 import ReduxConnection from './ReduxConnection';
-import Sky from './components/Sky';
-import Bird from './components/Bird';
-import Plane from './components/Plane';
+import SomeComponent from './components/SomeComponent';
+import SomeComponentEtc from './components/SomeComponentEtc';
 
 export default class Routes extends React.Component {
   constructor(props) {
@@ -23,9 +22,8 @@ export default class Routes extends React.Component {
       <Provider store={store}>
         <Router history={history}>
           <Route path="/" component={ReduxConnection}>
-            <IndexRoute component={Sky}></IndexRoute>
-            <Route path="/bird" component={Bird}></Route>
-            <Route path="/plane" component={Plane}></Route>
+            <IndexRoute component={SomeComponent}></IndexRoute>
+            <Route path="/some-other-component" component={SomeComponentEtc}></Route>
           </Route>
         </Router>
       </Provider>

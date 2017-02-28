@@ -1,9 +1,9 @@
 import { combineReducers } from 'redux';
 import { routerReducer } from 'react-router-redux';
 
-import birds from './birds';
-import planes from './planes';
+import sampleReducer from './sampleReducer';
+import sampleReducerEtc from './sampleReducer';
 
-const rootReducer = combineReducers({birds, planes, routing: routerReducer });
+const rootReducer = combineReducers({sampleReducer, sampleReducerEtc, routing: routerReducer });
 
 export default rootReducer;
