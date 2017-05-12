@@ -14,7 +14,7 @@
     "url": "https://github.com/NoneOfMaster/react-redux-boilerplate"
   },
   "author": "",
-  "license": "",
+  "license": "MIT",
   "homepage": "",
   "dependencies": {
     "babel-core": "^6.7.7",
