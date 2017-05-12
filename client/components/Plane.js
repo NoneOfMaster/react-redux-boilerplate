@@ -1,16 +1,13 @@
-import React from 'react';
-import { Link } from 'react-router';
-import Sky from './Sky';
+import React from 'react'
+import { Link } from 'react-router'
+import Sky from './Sky'
 
 export default class Plane extends React.Component {
-  constructor(props) {
-    super(props);
-  }
 
   handleSubmit(e) {
-    e.preventDefault();
-    const destination = this.refs.destination.value;
-    this.props.addPlane(destination);
+    e.preventDefault()
+    const destination = this.refs.destination.value
+    this.props.addPlane(destination)
   }
 
   render() {
@@ -24,6 +21,6 @@ export default class Plane extends React.Component {
 
         <Sky {...this.props} />
       </div>
-    );
+    )
   }
 }

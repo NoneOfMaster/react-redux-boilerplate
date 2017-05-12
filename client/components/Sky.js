@@ -1,9 +1,6 @@
-import React from 'react';
+import React from 'react'
 
 export default class Sky extends React.Component {
-  constructor(props) {
-    super(props);
-  }
 
   renderPlane(plane, index) { // index comes from of .map()
     return (
@@ -28,10 +25,10 @@ export default class Sky extends React.Component {
     return (
       <div className="sky">
         <h4>planes in the sky</h4>
-        {this.props.planes.map(this.renderPlane.bind(this))} 
+        {this.props.planes.map(this.renderPlane.bind(this))}
         <h4>birds in the sky</h4>
         {this.props.birds.map(this.renderBird.bind(this))}
       </div>
-    );
+    )
   }
 }
