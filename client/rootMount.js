@@ -1,11 +1,10 @@
-import React from 'react';
-
-import { render } from 'react-dom';
+import React from 'react'
+import { render } from 'react-dom'
 
 // import CSS
-import css from './styles/style.styl';
+import css from './styles/style.styl'
 
 // import router
-import Routes from './Routes';
+import Routes from './Routes'
 
-render(<Routes />, document.getElementById('root'));
+render(<Routes />, document.getElementById('root'))

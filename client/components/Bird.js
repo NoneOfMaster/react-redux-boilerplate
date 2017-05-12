@@ -1,17 +1,14 @@
-import React from 'react';
-import { Link } from 'react-router';
-import Sky from './Sky';
+import React from 'react'
+import { Link } from 'react-router'
+import Sky from './Sky'
 
 export default class Bird extends React.Component {
-  constructor(props) {
-    super(props);
-  }
 
   handleSubmit(e) {
-    e.preventDefault();
-    const name = this.refs.name.value;
-    const species = this.refs.type.value; // since 'type; is already a key of all actions
-    this.props.addBird(name, species);
+    e.preventDefault()
+    const name = this.refs.name.value
+    const species = this.refs.type.value // since 'type; is already a key of all actions
+    this.props.addBird(name, species)
   }
 
   render() {
@@ -26,6 +23,7 @@ export default class Bird extends React.Component {
 
         <Sky {...this.props} />
       </div>
-    );
+
+    )
   }
 }
