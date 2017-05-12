@@ -8,7 +8,7 @@ export default class Main extends React.Component {
     return (
       <div>
         <h1>
-          <Link to="/">Redux Boiler Plate</Link>
+          <Link to="/">React Boiler Plate</Link>
         </h1>
 
         <div className="nav-bar">
